@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.0.0.0">
+  <Summary numSequencePoints="28" visitedSequencePoints="28" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="4" numClasses="4" visitedMethods="6" numMethods="6" />
+  <Modules>
+    <Module>
+      <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>GameAssembly</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:/Users/acapela/Unity/Algos2024.2/Assets/TestGame/Scripts/GameManager.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>TestGame.GameManager</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>UnityEngine.GameObject TestGame.GameManager::SpawnCube()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="32" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="9" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="33" ordinal="0" offset="1" sl="14" sc="13" el="14" ec="13" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="34" ordinal="0" offset="16" sl="15" sc="9" el="15" ec="9" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>UnityEngine.GameObject TestGame.GameManager::SpawnCube(UnityEngine.GameObject)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="35" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="9" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="36" ordinal="0" offset="1" sl="19" sc="13" el="19" ec="13" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="37" ordinal="0" offset="30" sl="21" sc="13" el="21" ec="13" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="38" ordinal="0" offset="34" sl="22" sc="9" el="22" ec="9" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module>
+      <Summary numSequencePoints="21" visitedSequencePoints="21" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="3" numClasses="3" visitedMethods="4" numMethods="4" />
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Tests</ModuleName>
+      <Files>
+        <File uid="2" fullPath="C:/Users/acapela/Unity/Algos2024.2/Assets/TestGame/Tests/TestSuite.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>TestGame.Tests.TestSuite</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void TestGame.Tests.TestSuite::Setup()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="42" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="9" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="43" ordinal="0" offset="1" sl="17" sc="13" el="17" ec="13" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="44" ordinal="0" offset="12" sl="18" sc="13" el="18" ec="13" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="45" ordinal="0" offset="19" sl="19" sc="13" el="19" ec="13" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="46" ordinal="0" offset="31" sl="20" sc="9" el="20" ec="9" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void TestGame.Tests.TestSuite::Teardown()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="47" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="9" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="48" ordinal="0" offset="1" sl="25" sc="13" el="25" ec="13" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="49" ordinal="0" offset="18" sl="26" sc="9" el="26" ec="9" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>TestGame.Tests.TestSuite/&lt;CubeMoveDown&gt;d__4</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Boolean TestGame.Tests.TestSuite/&lt;CubeMoveDown&gt;d__4::MoveNext()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="50" ordinal="0" offset="31" sl="39" sc="9" el="39" ec="9" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="51" ordinal="0" offset="32" sl="40" sc="13" el="40" ec="13" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="52" ordinal="0" offset="54" sl="41" sc="13" el="41" ec="13" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="53" ordinal="0" offset="81" sl="42" sc="13" el="42" ec="13" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="54" ordinal="0" offset="113" sl="43" sc="13" el="43" ec="13" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="55" ordinal="0" offset="146" sl="44" sc="13" el="44" ec="13" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="56" ordinal="0" offset="158" sl="45" sc="9" el="45" ec="9" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>TestGame.Tests.TestSuite/&lt;SpawnCube&gt;d__3</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Boolean TestGame.Tests.TestSuite/&lt;SpawnCube&gt;d__3::MoveNext()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="57" ordinal="0" offset="31" sl="30" sc="9" el="30" ec="9" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="58" ordinal="0" offset="32" sl="31" sc="13" el="31" ec="13" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="59" ordinal="0" offset="54" sl="32" sc="13" el="32" ec="13" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="60" ordinal="0" offset="77" sl="33" sc="13" el="33" ec="13" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="61" ordinal="0" offset="89" sl="34" sc="13" el="34" ec="13" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="62" ordinal="0" offset="101" sl="35" sc="9" el="35" ec="9" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>

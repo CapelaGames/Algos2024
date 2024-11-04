@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>2/09/2024 - 4:46:14 PM</Generatedon>
+    <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
+    <Assemblies>2</Assemblies>
+    <Classes>2</Classes>
+    <Files>2</Files>
+    <Coveredlines>28</Coveredlines>
+    <Uncoveredlines>3</Uncoveredlines>
+    <Coverablelines>31</Coverablelines>
+    <Totallines>76</Totallines>
+    <Linecoverage>90.3</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+    <Coveredmethods>6</Coveredmethods>
+    <Totalmethods>7</Totalmethods>
+    <Methodcoverage>85.7</Methodcoverage>
+  </Summary>
+  <Coverage>
+    <Assembly name="GameAssembly" classes="1" coverage="70" coveredlines="7" coverablelines="10" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="3" methodcoverage="66.6">
+      <Class name="TestGame.GameManager" coverage="70" coveredlines="7" coverablelines="10" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="3" methodcoverage="66.6" />
+    </Assembly>
+    <Assembly name="Tests" classes="1" coverage="100" coveredlines="21" coverablelines="21" totallines="47" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100">
+      <Class name="TestGame.Tests.TestSuite" coverage="100" coveredlines="21" coverablelines="21" totallines="47" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>

@@ -1,0 +1,26 @@
+{
+  "summary": {
+    "generatedon": "2024-09-02T06:46:14Z",
+    "parser": "MultiReportParser (2x OpenCoverParser)",
+    "assemblies": 2,
+    "classes": 2,
+    "files": 2,
+    "coveredlines": 28,
+    "uncoveredlines": 3,
+    "coverablelines": 31,
+    "totallines": 76,
+    "linecoverage": 90.3,
+    "coveredbranches": 0,
+    "totalbranches": 0,
+    "coveredmethods": 6,
+    "totalmethods": 7,
+    "methodcoverage": 85.7
+ },
+  "coverage": {
+    "assemblies": [
+      { "name": "GameAssembly", "classes": 1, "coverage": 70, "coveredlines": 7, "coverablelines": 10, "totallines": 29, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 66.6, "coveredmethods": 2, "totalmethods": 3, "classesinassembly": [
+        { "name": "TestGame.GameManager", "coverage": 70, "coveredlines": 7, "coverablelines": 10, "totallines": 29, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 66.6, "coveredmethods": 2, "totalmethods": 3 } ] },
+      { "name": "Tests", "classes": 1, "coverage": 100, "coveredlines": 21, "coverablelines": 21, "totallines": 47, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 4, "totalmethods": 4, "classesinassembly": [
+        { "name": "TestGame.Tests.TestSuite", "coverage": 100, "coveredlines": 21, "coverablelines": 21, "totallines": 47, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 4, "totalmethods": 4 } ] } ]
+  }
+}
