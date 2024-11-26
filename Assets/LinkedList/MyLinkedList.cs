@@ -55,18 +55,30 @@ namespace OurLinkedList
         }
     }
 
+    //Extra
+    //Delete previous
+    
+    //THESE TWO
+    //Delete current
+
+
+
+
     public class LinkedList
     {
         private Node header; // The first node in the list
+        private Node tail;
         private Node current; // current node we are looking at
 
         public LinkedList()
         {
-            
+
         }
+
         public LinkedList(Node node)
         {
             header = node;
+            tail = node;
             header.next = null;
             header.prev = null;
             current = node;
@@ -76,10 +88,10 @@ namespace OurLinkedList
         {
             if (current.next == null)
             {
+                current.next = newNode;
                 newNode.prev = current;
                 newNode.next = null;
-                current.next = newNode;
-                
+                tail = newNode;
             }
             else
             {
@@ -91,6 +103,65 @@ namespace OurLinkedList
             }
         }
 
+        public void InsertPrev(Node newNode)
+        {
+            if (current.prev == null)
+            {
+                current.prev = newNode;
+                newNode.next = current;
+                newNode.prev = null;
+                header = newNode;
+            }
+            else
+            {
+                current.prev.next = newNode;
+                newNode.prev = current.prev;
+
+                newNode.next = current;
+                current.prev = newNode;
+            }
+        }
+
+        public void DeleteCurrent()
+        {
+            if (Prev())
+            {
+                DeleteNext();
+            }
+            else if(Next())
+            {
+                DeletePrev();
+            }
+            else
+            {
+                header = null;
+                tail = null;
+                current = null;
+            }
+        }
+
+        public void DeletePrev()
+        {
+            if (current.prev == null)
+            {
+                return;
+            }
+
+            Node delNode = current.prev;
+            current.prev = current.prev.prev;
+            if (current.prev != null)
+            {
+                current.prev.next = current;
+            }
+            else
+            {
+                header = current;
+            }
+
+            delNode = null;
+
+        }
+        
         public void DeleteNext()
         {
             if (current.next == null)
@@ -104,25 +175,33 @@ namespace OurLinkedList
             {
                 current.next.prev = current;
             }
+            else
+            {
+                tail = current;
+            }
 
             delNode = null;
 
         }
 
-        public void Prev()
+        public bool Prev()
         {
             if (current.prev != null)
             {
                 current = current.prev;
+                return true;
             }
+            return false;
         }
         
-        public void Next()
+        public bool Next()
         {
             if (current.next != null)
             {
                 current = current.next;
+                return true;
             }
+            return false;
         }
 
         public void PrintCurrent() =>
